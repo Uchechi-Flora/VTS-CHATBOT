@@ -1,0 +1,139 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "I'm fine, any questions",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+          "tag": "VTS",
+          "patterns": ["What is VTS?", "What is your name?"],
+          "responses":["Lol, Virtual Tour Softbot, but I figured that it was so long so VTS.", "I am VTS your tourguide"]
+     },
+     {
+         "tag": "zuma rock",
+        "patterns": ["What is zuma rock all about?","Is it true it has a face on it?"],
+        "responses": ["Good question, it is a rock with a face on it, but don't freak out, the face was not carved into the rock, the beauty is that it is naturally like that", "Yeah it has a face on it"]
+       },
+       {
+           "tag": "park",
+        "patterns": ["Are there parks in Abuja?", "Are the parks pretty?"],
+        "responses": ["Yeah yeah definitely places like millennium park, the conservation,etc", "Lol, yeah there are pretty parks"]
+       },
+       {
+           "tag":"states",
+           "patterns":["How many states are in Nigeria?"],
+           "responses":["Yes, there are 36 states."]
+       },
+       {
+           "tag":"beach",
+           "patterns":["Are there beaches in Nigeria?", "How many beaches in Nigeria?"],
+           "responses":["Yes, there are beaches like Tarkwa bay beach in Lagos and over 30 in Lagos too","There are also beaches in Port-Harcourt"]
+    },
+    {
+        "tag":"library",
+        "patterns":["Are there libraries in Nigeria","Is there a national library in Nigeria?"],
+        "responses":["Yes there are libraries in Nigeria like PH Literary Society in Port-Harcourt", "The national library is located in Ibadan"]
+},
+{
+    "tag":"Nigeria",
+    "patterns":["Who named Nigeria?","What is the meaning of Nigeria?"],
+    "responses":["Nigeria was named by Flora Shaw in January 8th 1897","Nigeria was taken from the Niger River runing through the country"]
+},
+{
+    "tag":"Mary Slessor",
+    "patterns":["Is it true that Mary Slessor once came to Nigeria?","Where is Mary Slessor buried?"],
+    "responses":["Yes she once came to Nigeria and also stopped the killing of twins","She was buried in a popular cemetry opposite Duke Town Secondary School Anderson Street, not far from the Obong of Calabar palace","The cemetry was built by the Presbytarian Church"]
+},
+{
+    "tag":"tourist centres",
+    "patterns":["Are there tourist centres in Nigeria?"],
+    "responses":["Yes there are a lot of tourist centres in Nigeria, there are places like the NIKE ART GALLERY, LEKKI CONSERVATION CENTER, PLEASURE PARK so many places"]
+},
+{
+  "tag":"richest man",
+  "patterns":["Who is the richest man in Nigeria"],
+  "responses":["Aliko Dangote"]
+},
+{
+  "tag":"Nigerian dishes",
+  "patterns":["Tell me some Nigerian Dishes","Are Nigerian dishes healthy?"],
+  "responses":["You have probably heard of Jollof rice, asides that we have:[Onugbu soup, Ofe Nsala, Ofe Utazi] by the Igbos, [Amala, Ewedu and Gbegiri, Ewa Agoyin]by the Yorubas and [Dan wake, Tuwo and taushe soup, Kosai]by the Hausas.", "Lol, yes Nigerian dishes are really healthy"]
+
+},
+{
+  "tag":"Nigerian fashion",
+  "patterns":["What is the Nigerian style when it comes to fashion"],
+  "responses":["Well, we have what we call 'ankara', a Nigerian traditional fabric, they are nice too ;)"]
+
+},
+{
+  "tag":"Nigerian artworks",
+  "patterns":["Tell me about some Nigerian artworks","Does Nigeria have any famous artworks?","What do some Nigerian artworks mean?"],
+  "responses":["We have Nok art, this refers to huge human, animal, and other figures made out of terracotta pottery, The first Nok terracotta was discovered in 1928 by Colonel Dent Young, a co-owner of a mining partnership, near the village of Nok in Kaduna State, Nigeria. The terracotta was accidentally unearthed at a level of 24 feet (7 m) from an alluvial tin mine.","We also have the Ife art, Excavations at Ife, in central Yorubaland (the site of the creation of the world in some Yoruba myths), have shown that naturalistic sculpture in brass and pottery was being produced sometime between 1100 and 1450 CE. The sculptures may represent royal figures and their attendants, and life-size portrait heads in brass were perhaps used as part of funerary effigies.","We also have the Ibibio art, Among the oldest sculptures of tropical Africa are several hundred ancestor figures, called ekpu, of the Ibibio coastal trade centre of Oron, some of which are thought to date from the late 18th century. They are bearded figures 3 to 4 feet (90 to 120 cm) high and are so individual as to suggest portraiture, despite their schematic style.","We also have the Nupe art, they are best known for their weaving, embroidery, beadmaking, wood carving, and sheet metalwork. They have produced many doors carved in low relief in a blend of decorative designs."]
+},
+{
+  "tag":"Nigerian paintings",
+  "patterns":["Tell me about some Nigerian paintings","Does Nigeria have any famous paintings?","What do some Nigerian paintings mean?"],
+  "responses":["We have 'Tutu' by Ben Enwonwu This painting was even called 'African Mona Lisa'. This Nigerian art work is a portrait of Adetutu Ademiluyi, she was a Yoruba princess, the work was painted in 1973. The painting was lost in 1975, and after 40 years of absence it was rediscovered.","We have 'Ankara na-nma' by Clement Mmaduako Nwafor,The painting Ankara na-nma is very realistic, and it is especially highlighted by the colorful fabrics painted with scrupulousness. The work was painted in 2016 and brought the painter many art awards including 1st position of the 5th National Visual Arts Competition in Nigeria.","We have Paintings by Jimoh Buraimoh, The painter is known for his style that was influenced by Yoruba traditions. It is hard to highlight one painting among all his works because all of them are unique and at the same time they keep one style.His works are recognized innovation in contemporary Nigerian art. The works of this painter are popular among both African and worldwide collectors. The painting is valued for up to £ 8000.","We have Motion in Blue by Sam Ebohon, The picture is an example of modern, stylish Nigerian art, it was painted in 2015. Here we can see vivid colors and composition style that made Sam Ebohon famous as one of the treasures of Nigerian art."]
+},
+{
+  "tag":"Nigerian authors",
+  "patterns":["Tell me about some Nigerian authors","Could you enlighten me about some Nigerian authors"],
+  "responses":["'Chinua Achebe':often called The Father of Nigerian Literature,Achebe's works reveal a tapestry of cultural norms, changing societal values, and the struggle to find a place in this environment.Some of his works are Things fall apart, Arrow of God, No longer at ease, etc","'Wole Soyinka':His works include novels such as Ake: The Years of Childhood and Death and the King's Horseman. You Must Set Forth at Dawn: A Memoir is Soyinka's own look at his life, experiences, and thoughts about Africa and Nigeria,his writing often focuses on oppression and exploitation of the weak by the strong. None are spared in his critique, neither the white speculator nor the black exploiter.","'Sefi Atta':Sefi Atta is a sensitive writer, who broaches polemical themes in a subtle and nuanced manner. Everything Good Will Come (2005), was her debut novel,","'Chimamnda Ngozi Adichie':Her first two books dealt largely with the political atmosphere of her native country through the prism of personal and familial relationships. Purple Hibiscus (2003),The publication of Half of a Yellow Sun (2006) confirmed the author has a uniquely talented voice. Set amidst the Nigerian-Biafran war, the book chronicles its everyday horrors through the differing lives of its four protagonists."]
+},
+{
+  "tag":"Wow",
+  "patterns":["I am pleased knowing this much about some of Nigeria's tradition and works","Wow!"],
+  "responses":["I am happy to give you a mini-tour about Nigeria."]
+},
+{
+  "tag":"tribe",
+  "patterns":["What are the main tribes of Nigeria","Could you enlighten me on Nigerian tribes?"],
+  "responses":["There are 3 main tribes: 'Igbo','Yoruba' and 'Hausa', these tribes are unique in their own way, for instance the Igbos have their own type of food, clothe and culture, same with the Yorubas and Hausas"]
+},
+{
+  "tag":"flag",
+  "patterns":["What do the colors of the Nigerian flag signify?"],
+  "responses":["It was designed by Michael Taiwo Akinkunmi. Green represents natural wealth and the White represents peace and unity."]
+},
+{
+  "tag":"Nigerian products",
+  "patterns":["What are some of Nigeria's famous products?"],
+  "responses":["Mineral Fuels including oil, Ships, boats, Oil seeds, Cocoa, Fertilizers, Fruits, Tobacco, Machinery"]
+},
+{
+  "tag":"Nigerian religion",
+  "patterns":["What type of religion do Nigerians practice?"],
+  "responses":["Christianity, Muslim, other. According to a 2018 estimate, 45.9% Christian(10.6% Catholic and 35.3% other Christian), 53.5% Muslim, 0.6% other"]
+}
+
+    ]
+}
