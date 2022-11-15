@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <center><h2><u>VIRTUAL TOUR SOFTBOT</h2></u></center>
+    <br>
+    <img class="sftbt"src ="{{ url_for('static', filename='images/vts.jpg') }}" />
+    <marquee behaviour="scroll" scrollamount="6">VIRTUAL TOUR SOFTBOT</marquee>
+    <ul>
+        <li>Project Overview</li>
+    </ul>
+    <p>This is a project carried out by <em>COMPUTER SCIENCE:GROUP B AI GROUP 5</em>, it employs the use of a softbot which in this case would act as a tour guide, using Nigeria as a case study (place of tour). It will aid users in a "virtual tour", it will also provide answers to some users questions, based on the tour that has been given</p>
+    <br>
+    <br>    
+    <center class="centour">TOURING THE GIANT OF AFRICA: NIGERIA</center>
+        <img src = "{{ url_for('static', filename= 'images/Nigeria1.jpg') }}" />
+    <p>Nigeria, an African Country on the Gulf of Guniea with many natural landmarks and wild reserves. Her president is Muhammadu Buhari, who assumed this position on the May 29th, 2015 as the 15th president of the Federal Republic of Nigeria.</br> Nigeria also has some interesting facts, artworks, dishes, authors and books</p>
+    <p>Nigeria has 36 unique states and capitals with their various governors and slogans:</p>
+    <br>
+    <table border="1">
+        <tbody>
+        <tr>
+        <th>S. No</th>
+        <th>State</th>
+        <th>Capital</th>
+        <th>Slogan</th>
+        <th>Current Governor</th>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>Abia State</a></td>
+        <td>Umuahia</td>
+        <td>God's Own State</td>
+        <td>Okezie Ikpeazu</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>Adamawa State</a></td>
+        <td>Yola</td>
+        <td>Land of Beauty</td>
+        <td>Ahmadu Umaru Fintiri</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>Akwa Ibom State</a></td>
+        <td>Uyo</td>
+        <td>Land of Promise</td>
+        <td>Udom Gabriel Emmanuel</td>
+        </tr>
+        <tr>
+        <td>4</td>
+        <td>Anambra State</a></td>
+        <td>Awka</td>
+        <td>Light of the Nation</td>
+        <td>Willie Obiano</td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>Bauchi State</a></td>
+        <td>Bauchi</td>
+        <td>Pearl of Tourism</td>
+        <td>Bala Abdulkadir Mohammed</td>
+        </tr>
+        <tr>
+        <td>6</td>
+        <td>Bayelsa State</a></td>
+        <td>Yenagoa</td>
+        <td>Glory of all lands</td>
+        <td>Douye Diri</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>Benue State</a></td>
+        <td>Makurdi</td>
+        <td>Food Basket of the Nation</td>
+        <td>Samuel Ortom</td>
+        </tr>
+        <tr>
+        <td>8</td>
+        <td>Borno State</a></td>
+        <td>Maiduguri</td>
+        <td>Home of Peace</td>
+        <td>Babagana Umara Zulum</td>
+        </tr>
+        <tr>
+        <td>9</td>
+        <td>Cross River State</a></td>
+        <td>Calabar</td>
+        <td>The People's Paradise</td>
+        <td>Benedict Ayade</td>
+        </tr>
+        <tr>
+        <td>10</td>
+        <td>Delta State</a></td>
+        <td>Asaba</td>
+        <td>The Big Heart</td>
+        <td>Ifeanyi Okowa</td>
+        </tr>
+        <tr>
+        <td>11</td>
+        <td>Ebonyi State</a></td>
+        <td>Abakaliki</td>
+        <td>Salt of the Nation</td>
+        <td>Dave Umahi</td>
+        </tr>
+        <tr>
+        <td>12</td>
+        <td>Edo State</a></td>
+        <td>Benin City</td>
+        <td>Heart Beat of Nigeria</td>
+        <td>Godwin Obaseki</td>
+        </tr>
+        <tr>
+        <td>13</td>
+        <td>Ekiti State</a></td>
+        <td>Ado - Ekiti</td>
+        <td>Land of Honour and Integrity</td>
+        <td>John Olukayode Fayemi</td>
+        </tr>
+        <tr>
+        <td>14</td>
+        <td>Enugu State</a></td>
+        <td>Enugu</td>
+        <td>Coal City State</td>
+        <td>Ifeanyi Ugwuanyi</td>
+        </tr>
+        <tr>
+        <td>15</td>
+        <td>Gombe State</a></td>
+        <td>Gombe</td>
+        <td>Jewel in the Savannah</td>
+        <td>Muhammad Inuwa Yahaya</td>
+        </tr>
+        <tr>
+        <td>16</td>
+        <td>Imo State</a></td>
+        <td>Owerri</td>
+        <td>Eastern Heartland</td>
+        <td>Hope Odidika Uzodinma</td>
+        </tr>
+        <tr>
+        <td>17</td>
+        <td>Jigawa State</a></td>
+        <td>Dutse</td>
+        <td>The New World</td>
+        <td>Badaru Abubakar</td>
+        </tr>
+        <tr>
+        <td>18</td>
+        <td>Kaduna State</a></td>
+        <td>Kaduna</td>
+        <td>Centre of Learning</td>
+        <td>Nasir Ahmad el-Rufai</td>
+        </tr>
+        <tr>
+        <td>19</td>
+        <td>Kano State</a></td>
+        <td>Kano</td>
+        <td>Centre of Commerce</td>
+        <td>Abdullahi Umar Ganduje</td>
+        </tr>
+        <tr>
+        <td>20</td>
+        <td>Katsina State</a></td>
+        <td>Katsina</td>
+        <td>Home of Hospitality</td>
+        <td>Aminu Bello Masari</td>
+        </tr>
+        <tr>
+        <td>21</td>
+        <td>Kebbi State</a></td>
+        <td>Birnin Kebbi</td>
+        <td>Land of Equity</td>
+        <td>Abubakar Atiku Bagudu</td>
+        </tr>
+        <tr>
+        <td>22</td>
+        <td>Kogi State</a></td>
+        <td>Lokoja</td>
+        <td>The Confluence State</td>
+        <td>Yahaya Adoza Bello</td>
+        </tr>
+        <tr>
+        <td>23</td>
+        <td>Kwara State</a></td>
+        <td>Ilorin</td>
+        <td>State of Harmony</td>
+        <td>Abdul Rahman Abdul Razaq</td>
+        </tr>
+        <tr>
+        <td>24</td>
+        <td>Lagos State</a></td>
+        <td>Ikeja</td>
+        <td>Centre of Excellence</td>
+        <td>Babajide Olusola Sanwo-Olu</td>
+        </tr>
+        <tr>
+        <td>25</td>
+        <td>Nasarawa State</a></td>
+        <td>Lafia</td>
+        <td>Home of Solid Minerals</td>
+        <td>Abdullahi Sule</td>
+        </tr>
+        <tr>
+        <td>26</td>
+        <td>Niger State</a></td>
+        <td>Minna</td>
+        <td>The Power State</td>
+        <td>Abubakar Sani Bello</td>
+        </tr>
+        <tr>
+        <td>27</td>
+        <td>Ogun State</a></td>
+        <td>Abeokuta</td>
+        <td>Gateway State</td>
+        <td>Dapo Abiodun</td>
+        </tr>
+        <tr>
+        <td>28</td>
+        <td>Ondo State</a></td>
+        <td>Akure</td>
+        <td>Sunshine State</td>
+        <td>Rotimi Akeredolu</td>
+        </tr>
+        <tr>
+        <td>29</td>
+        <td>Osun State</a></td>
+        <td>Oshogbo</td>
+        <td>Land of Virtue</td>
+        <td>Isiaka Adegboyega Oyetola</td>
+        </tr>
+        <tr>
+        <td>30</td>
+        <td>Oyo State</a></td>
+        <td>Ibadan</td>
+        <td>Pace Setter State</td>
+        <td>Oluseyi Abiodun Makinde</td>
+        </tr>
+        <tr>
+        <td>31</td>
+        <td>Plateau State</a></td>
+        <td>Jos</td>
+        <td>Home of Peace and Tourism</td>
+        <td>Simon Lalong</td>
+        </tr>
+        <tr>
+        <td>32</td>
+        <td>Rivers State</a></td>
+        <td>Port Harcourt</td>
+        <td>Treasure Base of the Nation</td>
+        <td>Ezenwo Nyesom Wike</td>
+        </tr>
+        <tr>
+        <td>33</td>
+        <td>Sokoto State</a></td>
+        <td>Sokoto</td>
+        <td>Seat of the Caliphate</td>
+        <td>Aminu Waziri Tambuwal</td>
+        </tr>
+        <tr>
+        <td>34</td>
+        <td>Taraba State</a></td>
+        <td>Jalingo</td>
+        <td>Nature's Gift to the Nation</td>
+        <td>Darius Ishaku</td>
+        </tr>
+        <tr>
+        <td>35</td>
+        <td>Yobe State</a></td>
+        <td>Damaturu</td>
+        <td>Pride of the Sahel</td>
+        <td>Mai Mala Buni</td>
+        </tr>
+        <tr>
+        <td>36</td>
+        <td>Zamfara State</a></td>
+        <td>Gusau</td>
+        <td>Farming is Our Pride </td>
+        <td>Bello Muhammad Mutawalle</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>To know more about Nigeria, VTS your tour guide will lead you</p>
+    <div class="row">
+        <div class="col-md-10 mr-auto ml-auto">
+    <h1>VTS TOUR GUIDE</h1>
+    <br>
+    <br>
+    <form>
+        <div id="chatbox">
+            <div class="col-md-8 ml-auto mr-auto">
+                <p class="botText"><span>Hi! I'm VTS, your tour guide.</span></p>
+            </div>
+        </div>
+        <div id="userInput" class="row">
+            <div class="col-md-10">
+                <input id="text" type="text" name="msg" placeholder="Message" class="form-control">
+                <button type="submit" id="send" class="btn btn-warning">Send</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            $("#text").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById("userInput").scrollIntoView({
+                block: "start",
+                behavior: "smooth",
+            });
+            $.ajax({
+                data: {
+                    msg: rawText,
+                },
+                type: "POST",
+                url: "/get",
+            }).done(function(data) {
+                var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+                $("#chatbox").append($.parseHTML(botHtml));
+                document.getElementById("userInput").scrollIntoView({
+                    block: "start",
+                    behavior: "smooth",
+                });
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+
+</html>
